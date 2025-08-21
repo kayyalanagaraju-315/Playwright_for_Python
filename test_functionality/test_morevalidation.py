@@ -133,6 +133,6 @@ def test_network_validation(test_open_browser):
 
     expect(page.locator('//a[text()="Login"]')).to_be_visible()
     page.locator('//a[text()="Login"]').scroll_into_view_if_needed()
-    # page.wait_for_timeout(10000)
+    page.wait_for_timeout(10000)
 
 
